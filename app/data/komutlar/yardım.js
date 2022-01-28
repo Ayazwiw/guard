@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 exports.run = function(client, message) {
   const embed = new Discord.RichEmbed()
     .setColor("RANDOM")
-    .setTitle("» Guard BOT Komut Sistemleri")
+    .setTitle("» Sae BOT Komut Sistemleri")
     .setTimestamp()
     .addField("» !ban", " İstediğiniz Kullanıcıyı Banlamanızı Sağlar.")
     .addField("» !kick ", "sKullanıcıyı Kicklemenizi Sağlar.")
